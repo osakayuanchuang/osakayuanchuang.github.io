@@ -23,12 +23,21 @@
       font-size: 14px;
       color: #666;
     }
+    /* 图片响应式优化 */
+    .header-img {
+      width: 100%;
+      height: auto;
+      max-height: 380px;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
 
-<!-- ここに header.jpg を追加 -->
-< img src="images/header.jpg" alt="大阪遠創株式会社" style="width:100%; max-height:380px; object-fit:cover; margin-bottom:20px;">
+<!-- 顶部 header 图片 -->
+< img src="images/header.jpg" alt="大阪遠創株式会社" class="header-img">
 
 <h1>大阪遠創株式会社</h1>
 
